@@ -43,7 +43,7 @@ class Tisch
         istInGebrauch[linkesGeben(nr)] = false;
         istInGebrauch[rechtesGeben(nr)] = false;
         
-        System.out.println("Philosoph Nr."+nr+" ist fertig mit essen!"+" -"+nr+"/-"+(nr+1));
+        System.out.println("Philosoph Nr."+nr+" ist fertig mit essen!"+" -"+linkesGeben(nr)+"/-"+rechtesGeben(nr));
         
         notify();
     }
